@@ -8,6 +8,32 @@ TITLE="System Information for $HOSTNAME"
 RIGHT_NOW="$(date +"%x %r %Z")"
 TIME_STAMP="Updated on $RIGHT_NOW by $USER"
 
+##### Functions
+
+system_info()
+{
+    # Temporary function stub
+    echo "function system_info"
+}
+
+show_uptime()
+{
+    # Temporary function stub
+    echo "function show_uptime"
+}
+
+drive_space()
+{
+    # Temporary function stub
+    echo "function drive_space"
+}
+
+home_space()
+{
+    # Temporary function stub
+    echo "function home_space"
+}
+
 ##### Main
 
 cat <<- _EOF_
